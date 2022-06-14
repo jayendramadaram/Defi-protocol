@@ -6,9 +6,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@metamask/providers": "^9.0.0",
+    "@reduxjs/toolkit": "^1.8.2",
     "next": "latest",
+    "next-redux-wrapper": "^7.0.5",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hot-toast": "^2.2.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "web3": "^1.7.3",
+    "web3-eth-contract": "^1.7.3"
   },
   "devDependencies": {
     "@types/node": "17.0.35",

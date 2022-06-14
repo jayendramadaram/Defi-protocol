@@ -40,12 +40,12 @@
   width: 50px;
   height: 100%;
   background: rgba(241, 236, 236, 0.5);
-  transform: skewX(45deg) translateX(990px);
-  transition: 0.5s;
+  transform: skewX(45deg) translateX(1140px);
+  transition: 0.3s;
 }
 
 .stuff:hover::before {
-  transform: skewX(45deg) translateX(-150px);
+  transform: skewX(45deg) translateX(-250px);
 }
 
 .stuf {
@@ -66,4 +66,45 @@
   overflow: hidden;
   color: white;
   cursor: url("../public/ethcursor.png"), pointer;
+}
+
+.stiff {
+  display: inline-block;
+  position: relative;
+  /* // width: 80px; */
+  justify-content: center;
+  align-items: center;
+  /* // height: 80px; */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+  overflow: hidden;
+  color: white;
+  cursor: url("../public/ethcursor.png"), pointer;
+}
+
+.stiff:hover {
+  transform: scale(1.1);
+}
+
+.stiff:before {
+  content: "";
+  transform: translateY(-50px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(241, 236, 236, 0.5);
+  transform: skewX(45deg) translateX(1090px);
+  transition: 0.5s;
+}
+
+.stiff:hover::before {
+  transform: skewX(45deg) translateX(-150px);
 }
