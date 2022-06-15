@@ -14,7 +14,7 @@ SC_OWNER_ADDR_PRIV_KEY_FILE_PATH = '/opt/.priv_key.txt'
 def change_contract_state(wallet):
     # web3 must be called locally
     w3 = Web3(HTTPProvider(
-        'https://ropsten.infura.io/v3/172bf686e1194d75b77619beb0d3e698'))
+        f'https://ropsten.infura.io/v3/{os.getenv("INFURA")}'))
     assert True is w3.isConnected()
 
     nonce = w3.eth.getTransactionCount(SC_OWNER_ADDR)

@@ -82,7 +82,7 @@ function Home() {
 
         var web3 = new Web3(
           new Web3.providers.HttpProvider(
-            "https://ropsten.infura.io/v3/172bf686e1194d75b77619beb0d3e698"
+            `https://ropsten.infura.io/v3/${process.env.InfuraID}`
           )
         );
         setWEBB3(web3);
