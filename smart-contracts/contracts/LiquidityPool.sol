@@ -20,7 +20,7 @@ contract LPOOL {
         _;
     }
 
-    mapping(address => uint) StakingRecord;
+    mapping(address => uint) public StakingRecord;
     mapping(address => bool) POOLPASS;
 
     address[] public investors;

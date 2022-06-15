@@ -11680,12 +11680,12 @@
     "3": {
       "events": {},
       "links": {},
-      "address": "0x5Cfb95f9e0d63422724B6ce4eeaba68d289723E2",
-      "transactionHash": "0x9a5128f8a2eeebb1d6423c2fe8bce6dc92a81ff9b8b45f97aed4fc650bc213eb"
+      "address": "0x7Cc3D492A7181Cc0753754E9948270178a298970",
+      "transactionHash": "0xf6beeffeabd91b632ce89d34d186d08a323efa4d20688a6671d7046d1d8790c2"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-13T10:33:14.137Z",
+  "updatedAt": "2022-06-15T07:40:26.627Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Very simple ERC20 Token example, where all tokens are pre-assigned to the creator. Note they can later distribute these tokens as they wish using `transfer` and other `ERC20` functions.",

@@ -37,6 +37,6 @@ contract("LPOOL", (accounts) => {
 });
 
 // urls
-// https://ropsten.etherscan.io/address/0x19360bfea94E6908bC4D74525F7aBE4D65f850D8
-// https://ropsten.etherscan.io/address/0xb6B68F90786712b7f50aF07B10DC3F8C0f713aE4
-// https://ropsten.etherscan.io/address/0x5Cfb95f9e0d63422724B6ce4eeaba68d289723E2
+// https://ropsten.etherscan.io/address/0x54C413630385Ba4e44e5Da23bE3c91577789f1B0 lpool
+// https://ropsten.etherscan.io/address/0x7Cc3D492A7181Cc0753754E9948270178a298970  usn
+// https://ropsten.etherscan.io/address/0x7b23EB0326a4b77D1d22A37C8Bcf30A5573eC747

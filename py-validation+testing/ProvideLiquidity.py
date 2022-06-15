@@ -31,7 +31,7 @@ def change_contract_state(wallet):
     transaction = contract.functions.transfer(
         #
         os.getenv('POOL'),
-        99999999999999999999999999999990
+        100000000000000000000000000000000
     ).buildTransaction(
         {
             'chainId': CHAIN_ID,
