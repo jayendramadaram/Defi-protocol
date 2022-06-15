@@ -14,7 +14,7 @@ import { TbLetterM } from "react-icons/tb";
 import Image from "next/image";
 import Link from "next/link";
 // import detectEthereumProvider from '@metamask/detect-provider';
-
+// require("dotenv").config();
 function Home() {
   const [Account, setAccount] = useState<String>("");
   const [USNC, setUSNC] = useState<Contract>();
@@ -79,10 +79,13 @@ function Home() {
         } else {
           alert("Unable to connect");
         }
+        // alert(
+        //   `https://ropsten.infura.io/v3/${process.env.NEXT_PUBLIC_InfuraID}`
+        // );
 
         var web3 = new Web3(
           new Web3.providers.HttpProvider(
-            `https://ropsten.infura.io/v3/${process.env.InfuraID}`
+            `https://ropsten.infura.io/v3/${process.env.NEXT_PUBLIC_InfuraID}`
           )
         );
         setWEBB3(web3);
