@@ -108,3 +108,97 @@
 .stiff:hover::before {
   transform: skewX(45deg) translateX(-150px);
 }
+
+.stof {
+  display: inline-block;
+  position: relative;
+  /* // width: 80px; */
+  justify-content: center;
+  align-items: center;
+  /* // height: 80px; */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px 15px 20px;
+  /* border-radius: 10px; */
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+  overflow: hidden;
+  color: white;
+  cursor: url("../public/ethcursor.png"), pointer;
+}
+
+.stff {
+  display: inline-block;
+  position: relative;
+  /* // width: 80px; */
+  justify-content: center;
+  align-items: center;
+  /* // height: 80px; */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px 0px 0px 10px;
+  backdrop-filter: blur(2px);
+
+  overflow: hidden;
+  color: white;
+}
+.sttf {
+  /* display: inline-block; */
+  position: relative;
+  /* // width: 80px; */
+  justify-content: center;
+  align-items: center;
+  /* // height: 80px; */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px 15px 20px;
+  border-radius: 0px 10px 10px 0px;
+  backdrop-filter: blur(2px);
+
+  overflow: hidden;
+  color: white;
+}
+
+.stff1 {
+  display: inline-block;
+  position: relative;
+  /* // width: 80px; */
+  justify-content: center;
+  align-items: center;
+  /* // height: 80px; */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  padding: 7px 10px 7px 10px;
+  border-radius: 10px 0px 0px 10px;
+  backdrop-filter: blur(2px);
+
+  overflow: hidden;
+  color: white;
+}
+.sttf1 {
+  /* display: inline-block; */
+  position: relative;
+  /* // width: 80px; */
+  justify-content: center;
+  align-items: center;
+  /* // height: 80px; */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  padding: 7px 10px 7px 10px;
+  border-radius: 0px 10px 10px 0px;
+  backdrop-filter: blur(2px);
+
+  overflow: hidden;
+  color: white;
+}

@@ -1,13 +1,14 @@
+import { useDispatch } from "react-redux";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { MetaMaskInpageProvider } from "@metamask/providers";
 import toast, { Toaster } from "react-hot-toast";
-import { useDispatch } from "react-redux";
 import { LOGIN } from "../redux/Login/action";
 
 declare global {
   interface Window {
     ethereum?: MetaMaskInpageProvider;
+    web3: any;
   }
 }
 function Unauth() {
